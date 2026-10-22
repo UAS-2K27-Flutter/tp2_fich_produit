@@ -1,16 +1,25 @@
-# tp2_fich_produit
+# TP 1-2 - Fiche produit
 
-A new Flutter project.
+Application Flutter qui affiche une fiche produit stylisée (casque sans fil).
 
-## Getting Started
+## Objectif
+Créer une carte produit centrée en utilisant les widgets de mise en page et de décoration vus en cours.
 
-This project is a starting point for a Flutter application.
+## Contenu de la carte
+- Image du produit (coins arrondis)
+- Nom du produit
+- Courte description
+- Prix et disponibilité
+- Bouton "Acheter"
 
-A few resources to get you started if this is your first Flutter project:
+## Widgets utilisés
+Card, Container, BoxDecoration, Column, Row, Padding, SizedBox, ElevatedButton
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Lancer le projet
+```
+flutter pub get
+flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Auteur
+Mohamed Moncef Haddad - UAS/ESIET
